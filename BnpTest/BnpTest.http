@@ -1,0 +1,6 @@
+@BnpTest_HostAddress = http://localhost:5012
+
+GET {{BnpTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
